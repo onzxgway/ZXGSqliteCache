@@ -597,6 +597,7 @@
 				F058C3A21E94D31700214902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F058C3A31E94D31700214902 /* Build configuration list for PBXNativeTarget "ZXGSqliteCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +606,7 @@
 				F058C3A51E94D31700214902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F058C3A61E94D31700214902 /* Build configuration list for PBXNativeTarget "ZXGSqliteCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -613,6 +615,7 @@
 				F058C3A81E94D31700214902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
