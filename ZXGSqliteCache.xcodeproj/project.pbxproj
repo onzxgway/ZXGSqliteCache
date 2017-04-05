@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F057DF4F1E94E92E004FF3A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F057DF4E1E94E92E004FF3A0 /* ViewController.m */; };
 		F058C3781E94D31600214902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F058C3771E94D31600214902 /* main.m */; };
 		F058C37B1E94D31600214902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F058C37A1E94D31600214902 /* AppDelegate.m */; };
-		F058C37E1E94D31600214902 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F058C37D1E94D31600214902 /* ViewController.m */; };
 		F058C3811E94D31600214902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F058C37F1E94D31600214902 /* Main.storyboard */; };
 		F058C3831E94D31700214902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F058C3821E94D31700214902 /* Assets.xcassets */; };
 		F058C3861E94D31700214902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F058C3841E94D31700214902 /* LaunchScreen.storyboard */; };
@@ -45,12 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F057DF4D1E94E92E004FF3A0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F057DF4E1E94E92E004FF3A0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F058C3731E94D31600214902 /* ZXGSqliteCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXGSqliteCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F058C3771E94D31600214902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F058C3791E94D31600214902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F058C37A1E94D31600214902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F058C37C1E94D31600214902 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		F058C37D1E94D31600214902 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		F058C3801E94D31600214902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F058C3821E94D31700214902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F058C3851E94D31700214902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -217,8 +217,8 @@
 				F058C3C61E94D5AE00214902 /* Dog.m */,
 				F058C3C71E94D5AE00214902 /* Person.h */,
 				F058C3C81E94D5AE00214902 /* Person.m */,
-				F058C37C1E94D31600214902 /* ViewController.h */,
-				F058C37D1E94D31600214902 /* ViewController.m */,
+				F057DF4D1E94E92E004FF3A0 /* ViewController.h */,
+				F057DF4E1E94E92E004FF3A0 /* ViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -358,11 +358,11 @@
 			files = (
 				F058C3C91E94D5AE00214902 /* Dog.m in Sources */,
 				F058C3AC1E94D48F00214902 /* ZXGFMDBModel.m in Sources */,
-				F058C37E1E94D31600214902 /* ViewController.m in Sources */,
 				F058C3AF1E94D4D100214902 /* FMDBDatabaseTool.m in Sources */,
 				F058C3BC1E94D52900214902 /* FMDatabase.m in Sources */,
 				F058C3C01E94D52900214902 /* FMResultSet.m in Sources */,
 				F058C3CA1E94D5AE00214902 /* Person.m in Sources */,
+				F057DF4F1E94E92E004FF3A0 /* ViewController.m in Sources */,
 				F058C37B1E94D31600214902 /* AppDelegate.m in Sources */,
 				F058C3BE1E94D52900214902 /* FMDatabasePool.m in Sources */,
 				F058C3BD1E94D52900214902 /* FMDatabaseAdditions.m in Sources */,
