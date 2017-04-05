@@ -68,24 +68,24 @@
         
         //2,本地splite3数据库操作
     //*删除
-        //    [Person deleteAll];//删除所有
-        //    [Person deleteObjWithConditionStr:@"where age = 26"];//根据条件删除
+        //    [Person zxg_deleteAll];//删除所有
+        //    [Person zxg_deleteObjWithConditionStr:@"where age = 26"];//根据条件删除
     //*插入
-        //    [p1 insertOne]; //单个对象插入   插入的时候，不用手动给id赋值，会自动根据插入的行数给id赋值。
+        //    [p1 zxg_insertOne]; //单个对象插入   插入的时候，不用手动给id赋值，会自动根据插入的行数给id赋值。
         [Person zxg_insertArray:@[p1,p2,p3]]; //批量插入
     //*更新
         //    p3.id = 2; //更新一条数据
-        //    [p3 update];
+        //    [p3 zxg_update];
         
         //    p1.id = 1;//批量更新
         //    p2.id = 2;
         //    p3.id = 3;
-        //    [Person updateArray:@[p1,p2,p3]];
+        //    [Person zxg_updateArray:@[p1,p2,p3]];
         
-        //    [p3 update];
-        //    [Person updateArray:arr];
+        //    [p3 zxg_update];
+        //    [Person zxg_updateArray:arr];
     //*查询
-        //    NSArray *results = [Person selectAll]; //查询所有
+        //    NSArray *results = [Person zxg_selectAll]; //查询所有
         NSArray *results = [Person zxg_selectObjWithConditionStr:@"where id < 4"]; //条件查询
         for (Person *p in results) {
             NSLog(@"%@+++%@+++%f+++%@+++%zd",p.name,p.petDog.nickName,p.height,p.Hobbies,p.id);
