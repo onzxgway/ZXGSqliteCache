@@ -10,5 +10,4 @@ Pod::Spec.new do |s|
   s.source_files  = 'ZXGSqliteCache/**/*.{h,m}'
   s.requires_arc = true
   s.library    = 'sqlite3'  
-  s.framework = 'FMDB'
 end
