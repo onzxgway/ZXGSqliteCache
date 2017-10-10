@@ -73,7 +73,6 @@
 		046781BF1F8C619C00FE1AD7 = {
 			isa = PBXGroup;
 			children = (
-				046781E21F8C61E000FE1AD7 /* ZXGSqliteCache */,
 				046781CA1F8C619C00FE1AD7 /* ZXGSqliteCacheDemo */,
 				046781C91F8C619C00FE1AD7 /* Products */,
 				046781FA1F8C620B00FE1AD7 /* Frameworks */,
@@ -91,6 +90,7 @@
 		046781CA1F8C619C00FE1AD7 /* ZXGSqliteCacheDemo */ = {
 			isa = PBXGroup;
 			children = (
+				046781E21F8C61E000FE1AD7 /* ZXGSqliteCache */,
 				046781FD1F8C63A100FE1AD7 /* Demo */,
 				046781CE1F8C619C00FE1AD7 /* AppDelegate.h */,
 				046781CF1F8C619C00FE1AD7 /* AppDelegate.m */,
@@ -132,7 +132,8 @@
 				040C46D21F8CC367001D762E /* FMResultSet.h */,
 				040C46D31F8CC367001D762E /* FMResultSet.m */,
 			);
-			path = ZXGSqliteCache;
+			name = ZXGSqliteCache;
+			path = ../ZXGSqliteCache;
 			sourceTree = "<group>";
 		};
 		046781FA1F8C620B00FE1AD7 /* Frameworks */ = {
