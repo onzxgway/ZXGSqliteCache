@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ZXGSqliteCache.xcodeproj">
+      location = "self:ZXGSqliteCacheDemo.xcodeproj">
    </FileRef>
 </Workspace>

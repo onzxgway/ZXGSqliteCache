@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ZXGSqliteCache'
-  s.version      = '0.0.1'
+  s.version      = '1.0.0'
   s.ios.deployment_target = '8.0'
   s.summary      = 'A fast and convenient sqlite cache'
   s.homepage     = 'https://github.com/onzxgway/ZXGSqliteCache'
