@@ -7,7 +7,6 @@
 //
 
 #import "ZXGFMDBModel.h"
-#import "FMDB.h"
 #import <objc/runtime.h>
 
 static const NSString *NameKey = @"NameKey";

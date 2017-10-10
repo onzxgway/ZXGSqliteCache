@@ -7,7 +7,6 @@
 //
 
 #import "FMDBDatabaseTool.h"
-#import "FMDB.h"
 
 @implementation FMDBDatabaseTool
 @synthesize dbQueue = _dbQueue;

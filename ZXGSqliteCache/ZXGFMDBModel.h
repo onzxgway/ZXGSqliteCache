@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "FMDBDatabaseTool.h"
+#import "FMDB.h"
 
 /** SQLite五种数据类型 */
 #define SQLTEXT  @"TEXT"

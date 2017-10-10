@@ -11,7 +11,5 @@ Pod::Spec.new do |s|
   
   s.social_media_url   = "https://onzxgway.github.io"
   s.requires_arc = true
-
-  s.library = 'sqlite3'
   
 end

@@ -9,6 +9,7 @@
 
 #import <Foundation/Foundation.h>
 @class FMDatabaseQueue;
+#import "FMDB.h"
 
 @interface FMDBDatabaseTool : NSObject
 
