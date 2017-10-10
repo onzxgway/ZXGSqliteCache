@@ -5,11 +5,13 @@ Pod::Spec.new do |s|
   s.summary      = 'A fast and convenient sqlite cache'
   s.homepage     = 'https://github.com/onzxgway/ZXGSqliteCache'
   s.license      = {:type => "MIT", :file => "LICENSE" }
-  s.author       = { 'onzxgway' => 'zhuxianguo529@163.com"' }
+  s.author       = { 'onzxgway' => 'zhuxianguo529@163.com' }
   s.source       = { :git => "https://github.com/onzxgway/ZXGSqliteCache.git", :tag => s.version }
   s.source_files  = 'ZXGSqliteCache'
   
   s.social_media_url   = "https://onzxgway.github.io"
   s.requires_arc = true
-  s.library    = 'sqlite3'  
+
+  s.library = 'sqlite3'
+  
 end
